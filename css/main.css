@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d3b715;
+  align-items: center;
+}
+
+.image {
+  align-items: center;
+}
+
+.footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #86ec86;
+  text-align: center;
+  padding: 10px 0px;
+}
+html {
+  box-sizing: border-box;
+}
+*, 
+:before,
+:after{
+  box-sizing: inherit;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+.slider {
+  max-width: 800px;
+  width: 100%;
+}
+.slider-item {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 5%; 
+}
